@@ -1,0 +1,84 @@
+{
+    "after": "3ed3a9574d23e3ea2472db7e381411685650ec5e",
+    "before": "1641264135e1365c9ff6ab32b77d92d7f8080f0a",
+    "commits": [
+        {
+            "added": [],
+            "author": {
+                "email": "pawel.pacana@gmail.com",
+                "name": "Pawe\u0142 Pacana",
+                "username": "pawelpacana"
+            },
+            "committer": {
+                "email": "pawel.pacana@gmail.com",
+                "name": "Pawe\u0142 Pacana",
+                "username": "pawelpacana"
+            },
+            "distinct": true,
+            "id": "3ed3a9574d23e3ea2472db7e381411685650ec5e",
+            "message": "Drop bundler gem install from example, lags on rubygems.",
+            "modified": [
+                ".citrus/config.rb"
+            ],
+            "removed": [],
+            "timestamp": "2013-10-13T13:55:01-07:00",
+            "url": "https://github.com/pawelpacana/citrus-core/commit/3ed3a9574d23e3ea2472db7e381411685650ec5e"
+        }
+    ],
+    "compare": "https://github.com/pawelpacana/citrus-core/compare/1641264135e1...3ed3a9574d23",
+    "created": false,
+    "deleted": false,
+    "forced": false,
+    "head_commit": {
+        "added": [],
+        "author": {
+            "email": "pawel.pacana@gmail.com",
+            "name": "Pawe\u0142 Pacana",
+            "username": "pawelpacana"
+        },
+        "committer": {
+            "email": "pawel.pacana@gmail.com",
+            "name": "Pawe\u0142 Pacana",
+            "username": "pawelpacana"
+        },
+        "distinct": true,
+        "id": "3ed3a9574d23e3ea2472db7e381411685650ec5e",
+        "message": "Drop bundler gem install from example, lags on rubygems.",
+        "modified": [
+            ".citrus/config.rb"
+        ],
+        "removed": [],
+        "timestamp": "2013-10-13T13:55:01-07:00",
+        "url": "https://github.com/pawelpacana/citrus-core/commit/3ed3a9574d23e3ea2472db7e381411685650ec5e"
+    },
+    "pusher": {
+        "email": "pawel.pacana@gmail.com",
+        "name": "pawelpacana"
+    },
+    "ref": "refs/heads/master",
+    "repository": {
+        "created_at": 1360404806,
+        "description": "",
+        "fork": false,
+        "forks": 1,
+        "has_downloads": true,
+        "has_issues": true,
+        "has_wiki": true,
+        "homepage": "http://citrus-ci.org/",
+        "id": 8108400,
+        "language": "Ruby",
+        "master_branch": "master",
+        "name": "citrus-core",
+        "open_issues": 1,
+        "owner": {
+            "email": "pawel.pacana@gmail.com",
+            "name": "pawelpacana"
+        },
+        "private": false,
+        "pushed_at": 1381697672,
+        "size": 436,
+        "stargazers": 1,
+        "url": "https://github.com/pawelpacana/citrus-core",
+        "watchers": 1
+    }
+}

@@ -22,4 +22,5 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "rake"
 
   spec.add_dependency "citrus-core"
+  spec.add_dependency "citrus-event-bus"
 end

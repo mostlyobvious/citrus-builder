@@ -22,10 +22,14 @@ module Citrus
           event = @configuration.event_subscriber.()
           case event.type
             when 'build_created'
-              push_data = event.body['push_data']
-              uuid      = event.body['build_id']
-              changeset = @configuration.github_adapter.create_changeset_from_push_data(push_data)
-              usecase.(Citrus::Core::Build.new(changeset, uuid))
+              repository_url = event.body['repository_url']
+              revision       = event.body['revision']
+              build_id       = event.body['build_id']
+
+              repository = Citrus::Core::Repository.new(repository_url)
+              commit     = Citrus::Core::Commit.new(revision, nil, nil, nil, nil)
+              changeset  = Citrus::Core::Changeset.new(repository, [commit])
+              usecase.(Citrus::Core::Build.new(changeset, build_id))
             else
               next
           end

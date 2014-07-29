@@ -1,3 +1,3 @@
-# Citrus::Builder
+# Citrus Builder
 
 Citrus::Core as a Microservice.
